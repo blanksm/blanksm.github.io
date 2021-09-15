@@ -1,0 +1,42 @@
+div {height: 40px;
+     width: 40px;
+     background-color: brown;
+     margin-bottom: 5px;
+     display: inline-block;
+     position: absolute;
+}
+
+body {
+    position: relative;
+    height: 150vh;
+    margin: 0vh;
+}
+
+#top-right {
+    top: 0px;
+    right: 0px;
+}
+
+
+#bottom-right{
+    bottom: 0px;
+    right: 0px;
+}
+
+
+#bottom-left{
+    bottom: 0px;
+    left: 0px;
+ }
+
+
+#centered{
+    width: 300px;
+    height:100px;
+    background-color: brown;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    margin: -50px 0 0 -150px;
+    /*margin: top, right, bottom, left*/
+}
